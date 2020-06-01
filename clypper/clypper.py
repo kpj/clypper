@@ -41,7 +41,7 @@ def assemble_clip(video):
         fontsize=72, font='Impact-Normal',
         color='white', stroke_color='black', stroke_width=3,
         align='West'
-    ).set_pos((0, 0))
+    ).set_position((0, 0))
      .set_duration(clip.duration)
      .resize(width=clip.w))
 
