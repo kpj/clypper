@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "clypper"
-version = "0.0.1"
+version = "0.0.2"
 description = "Rapidly create supercuts from various video sources."
 
 authors = ["kpj <kpjkpjkpjkpjkpjkpj@gmail.com>"]
