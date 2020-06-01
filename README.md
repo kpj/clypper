@@ -25,3 +25,13 @@ $ clypper -i input.txt -o supercut.mp4
 $ file supercut.mp4
 supercut.mp4: ISO Media, MP4 Base Media v1 [IS0 14496-12:2003]
 ```
+
+
+## Developer notes
+
+### Making a new release
+
+```bash
+$ bump2version patch # minor major
+$ poetry publish --build
+```
