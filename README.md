@@ -18,8 +18,8 @@ A text file specifying the video source url as well as start and end timestamps 
 
 ```bash
 $ cat input.txt
-https://www.youtube.com/watch?v=dQw4w9WgXcQ 0:43 0:44
-https://www.youtube.com/watch?v=o0u4M6vppCI 1:55 1:59
+https://www.youtube.com/watch?v=dQw4w9WgXcQ 0:43.2 0:44
+https://www.youtube.com/watch?v=o0u4M6vppCI 1:55 1:58.45
 $ clypper -i input.txt -o supercut.mp4
 [..]
 $ file supercut.mp4
