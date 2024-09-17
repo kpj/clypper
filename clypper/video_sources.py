@@ -5,7 +5,7 @@ from urllib.parse import urlparse
 from abc import ABC, abstractmethod
 
 import sh
-from pytube import YouTube
+from pytubefix import YouTube
 
 from moviepy.editor import VideoFileClip
 

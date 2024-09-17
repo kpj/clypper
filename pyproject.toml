@@ -12,19 +12,20 @@ repository = "https://github.com/kpj/clypper"
 
 
 [tool.poetry.dependencies]
-python = "^3.6"
-click = "^7.1.2"
-sh = "^1.13.1"
-pytube3 = "^9.6.4"
+python = "^3.10"
+click = "^8.1.7"
+sh = "^2.0.7"
 moviepy = "^1.0.3"
-tqdm = "^4.46.0"
+tqdm = "^4.66.5"
 pytimeparse = "^1.1.8"
+pytubefix = "^6.16.2"
+opencv-python = "^4.10.0.84"
 
 
-[tool.poetry.dev-dependencies]
-pytest = "^5.4.2"
-tox = "^3.15.1"
-bump2version = "^1.0.0"
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+tox = "^4.18.1"
+bump2version = "^1.0.1"
 
 
 [tool.poetry.scripts]
